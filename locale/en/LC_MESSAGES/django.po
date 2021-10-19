@@ -1,0 +1,316 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: webmaster@localhost\n"
+"POT-Creation-Date: 2021-10-19 20:13:16\n"
+"PO-Revision-Date: 2021-10-19 20:13:16\n"
+"Last-Translator: Server <root@localhost>\n"
+"Language-Team: English <webmaster@localhost>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\templates\base.html:377
+msgid ""
+" Vårt företag grundades år 2020. Det är specialiserat på distribution av mjölk och ost direkt från producent till\n"
+"                        konsument.Vi erbjuder försäljningsservice på mer än 30 platser i Sverige och vi arbetar nu för att nå nya områden. Vi\n"
+"                        utmärker oss inom mejeri- och ostindustrin genom sitt engagemang för de högsta kvalitetskraven och för att\n"
+"                        tillhandahålla de bästa hälsoprodukterna. Vårt företag anses vara ett av de viktigaste företagen inom distribution och\n"
+"                        tillverkning av mejeri och livsmedel. Företaget litar på i sin policy om att nå konsumentnöjdhet genom att alltid\n"
+"                        tillhandahålla det bästa och bästa"
+msgstr ""
+"Our company was founded in 2020. It specializes in the distribution of milk "
+"and cheese directly from producer to consumer. We offer sales service in "
+"more than 30 locations in Sweden and we are now working to reach new areas. "
+"We excel in the dairy and cheese industry through their commitment to the "
+"highest quality requirements and to provide the best health products. Our "
+"company is considered one of the most important companies in the "
+"distribution and production of dairy and food. The company trusts in its "
+"policy of achieving consumer satisfaction by always providing the best and "
+"best"
+
+#: .\templates\base.html:130
+msgid " We have the Syrian sandwich"
+msgstr "We have the Syrian sandwich"
+
+#: .\templates\base.html:353
+msgid "09.00am to 08.00pm"
+msgstr "09.00am to 08.00pm"
+
+#: .\templates\base.html:376
+msgid "About NORRKÖPINGS OST"
+msgstr "About NORRKÖPINGS OST"
+
+#: .\templates\base.html:162 .\templates\base.html:390
+msgid "About Us"
+msgstr "About Us"
+
+#: .\templates\all_product.html:134
+msgid "Address"
+msgstr "Address"
+
+#: .\templates\base.html:404
+msgid "Address:"
+msgstr "Address:"
+
+#: .\templates\base.html:118
+msgid "All of our products are without preservatives"
+msgstr "All of our products are without preservatives"
+
+#: .\templates\all_product.html:63
+msgid "All products are made from natural materials without preservatives."
+msgstr "All products are made from natural materials without preservatives."
+
+#: .\project\settings.py:119
+msgid "Arabic"
+msgstr "Arabic"
+
+#: .\templates\base.html:349
+msgid "Business Time"
+msgstr "Business Time"
+
+#: .\templates\base.html:91
+msgid "Call Sweden :-"
+msgstr "Contact Us"
+
+#: .\templates\base.html:401
+msgid "Contact Us"
+msgstr "Contact Us"
+
+#: .\templates\all_product.html:136 .\templates\all_product.html:180
+msgid "Date"
+msgstr "Date"
+
+#: .\templates\one_product.html:114
+msgid "Date:"
+msgstr "Date:"
+
+#: .\templates\base.html:395
+msgid "Delivery Information"
+msgstr "Delivery Information"
+
+#: .\templates\base.html:411
+msgid "Email:"
+msgstr "Email:"
+
+#: .\templates\all_product.html:138
+msgid "End hour"
+msgstr "End hour"
+
+#: .\project\settings.py:118
+msgid "English"
+msgstr "English"
+
+#: .\templates\base.html:97
+msgid "Facebook"
+msgstr "Facebook"
+
+#: .\templates\base.html:361
+msgid "Follow us and find out whats new."
+msgstr "Follow us and find out whats new."
+
+#: .\templates\base.html:112
+msgid "Follow us to get all new"
+msgstr "Follow us to get all new"
+
+#: .\templates\base.html:115
+msgid "From producer to consumer"
+msgstr "Home"
+
+#: .\templates\base.html:161
+msgid "Home"
+msgstr "Information"
+
+#: .\templates\base.html:388
+msgid "Information"
+msgstr "Log in to leave your review"
+
+#: .\templates\one_product.html:165
+msgid "Log in to leave your review"
+msgstr "Log in to leave your review"
+
+#: .\templates\all_product.html:252
+msgid "Log in to leave your review!"
+msgstr "Log in to leave your review!"
+
+#: .\templates\base.html:71
+msgid "Logga ut"
+msgstr "Log out"
+
+#: .\templates\about.html:81
+msgid "Meet Our Team"
+msgstr "Meet Our Team"
+
+#: .\templates\base.html:351
+msgid "Monday - Friday: 08.00am to 08.00pm"
+msgstr "Monday - Friday: 08.00am to 08.00pm"
+
+#: .\templates\all_product.html:62
+msgid "Our products"
+msgstr "Our products"
+
+#: .\templates\base.html:121
+msgid "Our products are made from fresh Swedish milk"
+msgstr "Our products are made from fresh Swedish milk"
+
+#: .\templates\base.html:408
+msgid "Phone:"
+msgstr "Phone:"
+
+#: .\templates\all_product.html:124
+msgid "Point of sale direct with date and city name."
+msgstr "Point of sale direct with date and city name."
+
+#: .\templates\base.html:394
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: .\templates\about.html:37
+msgid "Read More"
+msgstr "Read More"
+
+#: .\templates\one_product.html:151
+msgid "Review"
+msgstr "Review"
+
+#: .\templates\one_product.html:104
+msgid "Reviews"
+msgstr "Reviews"
+
+#: .\templates\base.html:352
+msgid "Saturday: 09.00am to 08.00pm"
+msgstr "Saturday: 09.00am to 08.00pm"
+
+#: .\templates\one_product.html:14
+msgid "Shop"
+msgstr "Shop"
+
+#: .\templates\one_product.html:12 .\templates\one_product.html:15
+msgid "Shop Detail"
+msgstr "Shop Detail"
+
+#: .\templates\all_product.html:19 .\templates\all_product.html:31
+msgid "Shop New"
+msgstr "Shop New"
+
+#: .\templates\one_product.html:68
+msgid "Short Description:"
+msgstr "Short Description:"
+
+#: .\templates\base.html:79
+msgid "Sign In"
+msgstr "Sign in"
+
+#: .\templates\base.html:95
+msgid "Sign in"
+msgstr "Sign in"
+
+#: .\templates\base.html:96
+msgid "Sign up"
+msgstr "Sign up"
+
+#: .\templates\base.html:360
+msgid "Social Media"
+msgstr "Social Media"
+
+#: .\templates\all_product.html:247 .\templates\one_product.html:160
+msgid "Submit"
+msgstr "Submit"
+
+#: .\templates\base.html:353
+msgid "Sunday:"
+msgstr "Sunday:"
+
+#: .\project\settings.py:117
+msgid "Swedish"
+msgstr "Swedish"
+
+#: .\templates\all_product.html:167
+msgid "The place and time are not suitable. Help us choose"
+msgstr "The place and time are not suitable. Help us choose"
+
+#: .\templates\one_product.html:124
+msgid "There are no reviews yet"
+msgstr "There are no reviews yet"
+
+#: .\templates\all_product.html:191
+msgid "There are no reviews yet..."
+msgstr "There are no reviews yet..."
+
+#: .\templates\all_product.html:88 .\templates\all_product.html:92
+msgid "View"
+msgstr "View"
+
+#: .\templates\about.html:17
+msgid "We are"
+msgstr "We are"
+
+#: .\templates\base.html:133
+msgid "We distribute and sell products in more than 30 regions in Sweden"
+msgstr "We distribute and sell products in more than 30 regions in Sweden"
+
+#: .\templates\base.html:127
+msgid "We have the best and most delicious types of cheese"
+msgstr "We have the best and most delicious types of cheese"
+
+#: .\templates\all_product.html:17 .\templates\all_product.html:29
+#: .\templates\all_product.html:41
+msgid "Welcome To"
+msgstr "Welcome To"
+
+#: .\templates\all_product.html:238
+msgid "Write the proposal with the name of the city "
+msgstr "Write the proposal with the name of the city"
+
+#: .\templates\base.html:124
+msgid "You have an inquiry contact us"
+msgstr "You have an inquiry contact us"
+
+#: .\templates\all_product.html:133
+msgid "city name"
+msgstr "city name"
+
+#: .\templates\all_product.html:118 .\templates\all_product.html:123
+msgid "sales areas"
+msgstr "sales areas"
+
+#: .\templates\one_product.html:115 .\templates\one_product.html:135
+msgid "stars"
+msgstr "stars"
+
+#: .\templates\one_product.html:115
+msgid "stars:"
+msgstr "stars:"
+
+#: .\templates\all_product.html:137
+msgid "start hour"
+msgstr "start hour"
+
+#: .\templates\one_product.html:91
+msgid "the description"
+msgstr "the description"
+
+#: .\templates\all_product.html:135
+msgid "the map"
+msgstr "the map"
+
+#: .\templates\all_product.html:219
+msgid "أختار المدينة"
+msgstr "I choose the city"
+
+#: .\templates\all_product.html:182
+msgid "المدينة:"
+msgstr "City:"
+
+#: .\templates\all_product.html:76
+msgid "تخفيضات"
+msgstr "Campaign"
+
+#: .\templates\all_product.html:82
+msgid "توصيه مسيقا"
+msgstr "order"
+
+#: .\templates\all_product.html:79
+msgid "متاح في مكان التوزيع "
+msgstr "In place"

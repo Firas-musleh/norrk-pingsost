@@ -1,0 +1,358 @@
+{% extends 'base.html'%}
+{% load i18n %}
+
+{% load static%}
+
+{% block content %}
+
+<!-- Start Slider -->
+<div id="slides-shop" class="cover-slides">
+    <ul class="slides-container">
+        <li class="text-center">
+            {% for img in imagess %}
+            <img src="{{img.image_1.url}}" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>{% trans 'Welcome To'%} <br> Norrköpings ost</strong></h1>
+                        
+                        <p><a class="btn hvr-hover mt-5" href="#">{% trans 'Shop New'%}</a></p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="text-center">
+            <img src="{{img.image_2.url}}" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>{% trans 'Welcome To'%} <br> Norrköpings ost</strong></h1>
+                        
+                        <p><a class="btn hvr-hover mt-5" href="#">{% trans 'Shop New'%}</a></p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="text-center">
+            <img src="{{img.image_3.url}}" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>{% trans 'Welcome To'%} <br> Norrköpings ost</strong></h1>
+                       
+                        <p><a class="btn hvr-hover mt-5" href="#">Shop New</a></p>
+                        {%endfor%}
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="slides-navigation">
+        <a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+    </div>
+</div>
+<!-- End Slider -->
+<!-- Start Products  -->
+<div class="products-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title-all text-center">
+                    <h1>{% trans 'Our products'%}</h1>
+                    <p>{% trans 'All products are made from natural materials without preservatives.'%}</p>
+                </div>
+            </div>
+        </div>
+       
+
+        <div class="row special-list">
+            {% for Produkten in all_prodcut %}
+            <div class="col-lg-3 col-md-6 special-grid best-seller">
+                <div class="products-single fix">
+                    <div class="box-img-hover">
+                        <div class="type-lb">
+                            <p class="sale">{%if Produkten.Discountprice > 0 %}
+                            <span class="badge rounded-pill bg-danger">{% trans 'تخفيضات'%}</span>
+                            {%endif%}
+                            {%if Produkten.new %}
+                            <span class="badge rounded-pill bg-primary">{% trans 'متاح في مكان التوزيع '%}</span>
+                            {%endif%}
+                            {%if Produkten.available %}
+                            <span class="badge badge-success">{% trans 'توصيه مسيقا'%}</span>
+                            {%endif%}</p>
+                        </div>
+                        <img  src="{{Produkten.pro_image.url}}" class="img-fluid" alt="Image" >
+                        <div class="mask-icon">
+                            <ul>
+                                <li><a href="{% url 'ost:one_prodcut' Produkten.slug %}" data-toggle="tooltip" data-placement="right" title="{% trans 'View'%}"><i
+                                            class="fas fa-eye"></i></a></li>
+                               
+                            </ul>
+                            <a class="cart" href="{% url 'ost:one_prodcut' Produkten.slug %}">{% trans 'View'%}</a>
+                        </div>
+                    </div>
+                    <div class="why-text">
+                        <h4>{{Produkten }}</h4>
+                        {% if Produkten.Discountprice > 0 %}
+                        <h5 style="color:#0a0a0a;">{{ Produkten.Discountprice}}:-SEK</h5>
+                            {%else%}
+                        <h5> {{ Produkten.price}}:-SEK</h5>
+                        {%endif%}
+                    </div>
+                </div>
+            </div>
+            {%endfor%}
+           
+
+            
+
+           
+        </div>
+    </div>
+</div>
+<!-- End Products  -->
+
+<!-- plats -->
+<!-- <div class="text-center p-4 mb-5 mt-5 bg-success text-light col-lg-9 mx-auto  ">
+    <h4>{% trans 'sales areas'%}</h4>
+</div> -->
+<div class="row">
+    <div class="col-lg-12  ">
+        <div class="title-all text-center">
+            <h1>{% trans 'sales areas'%}</h1>
+            <p>{% trans 'Point of sale direct with date and city name.'%}</p>
+        </div>
+    </div>
+</div>
+<div class=" container">
+    <table class="table table-success table-striped ">
+        <thead>
+            <tr class=" text-center ">
+
+                <th scope="col">{% trans 'city name'%}</th>
+                <th scope="col">{% trans 'Address'%}</th>
+                <th scope="col">{% trans 'the map'%}</th>
+                <th scope="col">{% trans 'Date'%}</th>
+                <th scope="col">{% trans 'start hour'%}</th>
+                <th scope="col">{% trans 'End hour'%}</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for plats in plats %}
+            <tr class=" text-center">
+                <th scope="row">{{plats.stan}}</th>
+                <td>{{plats.adress}}</td>
+                <td><a href="{{plats.map_plats}}" target="_blank">
+                        <img id="eew" src="{% static 'images/plats.png' %}" alt="...">
+                </td>
+                <td>{{plats.datom}}</td>
+                <td>{{plats.start_time}}</td>
+                <td>{{plats.end_time}}</td>
+                {% endfor %}
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+<!-- End plats -->
+<!-- plats reviews -->
+
+
+<!-- <h3 class="subtitle text-right m-4 text-center text-danger mt-5">{% trans 'المكان و الزمان ليس مناسبان ساعدنا بأختيار
+    الوقت و المكان المناسب '%}</h3> -->
+    <div class="row">
+        <div class="col-lg-12 mt-5">
+            <div class="title-all text-center">
+                <h1>{% trans 'The place and time are not suitable. Help us choose'%}</h1>
+               
+            </div>
+        </div>
+    </div>
+<div class="plat_reviews-wrapper text-right m-4">
+    {% for plat in plat_reviews.all %}
+
+    <div class="alert alert-success text-right" role="alert">
+        <p>
+
+            <strong>{{plat.user}}</strong>
+            <br>
+            <strong>{% trans 'Date'%} :</strong>{{plat.date_added|date:"Y-m-d" }}
+
+            <!-- <strong>{% trans 'المدينة:'%} </strong> {{plat.stan}} -->
+
+
+        </p>
+        {{ plat.content}}
+    </div>
+    {% empty %}
+    <div class="alert alert-success  " role="alert">
+
+        {% trans 'There are no reviews yet...'%}
+    </div>
+    {% endfor %}
+</div>
+
+<div class="alert alert-success text-right m-4" role="alert">
+    {% if request.user.is_authenticated %}
+    <form method="post">
+        {% csrf_token %}
+        <!-- <div class="field text-right">
+  <label>أختار المدينة</label>
+
+  <div clas="control">
+    <div class="select">
+  <select name="stars">
+  <div class="col-auto ">
+    <label class="" for="inlineFormCustomSelect">المدينة </label>
+    <select class="custom-select " id="inlineFormCustomSelect">
+      <option selected>أختار المدينة...</option>
+      {% for plats in plats %}<option >{{plats.stan}}</option>{% endfor %}
+      
+    </select>
+    </div>
+  </div>
+</div> -->
+
+
+        <div class="field">
+            <!-- <label>{% trans 'أختار المدينة'%}</label> -->
+
+            <div clas="control">
+                <div class="select">
+                    <!-- <select name=" stan">
+       {% for plats in plats %} <option value="1">{{plats.stan}}</option>{% endfor %}  
+     
+      </select> -->
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="field text-right">
+            <label>{% trans 'Write the proposal with the name of the city '%}</label>
+
+            <div class="control">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="content"></textarea>
+            </div>
+        </div>
+
+        <div class="field">
+            <div class="control mt-2">
+                <button class="button is-success">{% trans 'Submit'%}</button>
+            </div>
+        </div>
+    </form>
+    {% else %}
+    <p text-right>{% trans 'Log in to leave your review!'%}</p>
+    {% endif %}
+</div>
+</div>
+<!---->
+<!-- End plats reviews -->
+<!-- Start Instagram Feed  -->
+<div class="instagram-box">
+
+    <div class="main-instagram owl-carousel owl-theme">
+    {% for img in gallery %}
+        <div class="item ">
+
+            <div class="ins-inner-box">
+                <img style="max-height:30rem;
+    min-height:30rem ;" src="{{img.gallery_image_1.url}}" alt="" />
+                <div class="hov-in">
+                    <a href="#"><i >Norrköpings ost</i></a>
+                </div>
+            </div>
+        </div>
+         {%endfor%}
+        
+    </div>
+</div>
+<!-- End Instagram Feed  -->
+<div class="text-center p-4 m-4 bg-muted text-dark">
+     <p class="fas fa-truck fs-2 justify-content-end mr-5"> direkt  </p >
+      <p class="fab fa-cc-mastercard fs-2 mr-5"> mastercard</p>
+      <p class="fab fa-cc-visa fs-2 mr-5"> visa</p>
+      <p class="fas fa-hand-holding-usd fs-2 mr-5"> kontanter</p>
+      <img src="{% static 'images/Swish.png' %}" alt="" class="mr-5" style="height: 7em; width: 9em;">
+    </div>
+<style>
+    #eew{
+  width: 20%;
+}
+@media (min-width : 371px) and (max-width : 1300px) {
+    
+    table {
+      font-size: 0.1rem;
+      font-weight: 100;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+   
+#tex{
+    text-decoration:dotted;
+    color: black;
+    font-size: 13px;
+  }
+
+
+#eew{
+  width: 80%;
+}
+  }
+
+  @media (min-width : 560px) and (max-width : 1300px) {
+   table {
+      font-size: 10px;
+    }
+    #eew{
+  width: 60%;
+}
+     .card{
+     width: 38%;
+     padding: 0;
+     margin: 3.5%;
+     
+   }
+ 
+#tex{
+    text-decoration:dotted;
+    color: black;
+    font-size: 14px;
+  }
+
+  }
+  @media (min-width : 760px) and (max-width : 1300px) {
+  table {
+      font-size: 12px;
+    }
+    #eew{
+  width: 40%;
+}
+   
+#tex{
+    text-decoration:dotted;
+    color: black;
+    font-size: 16px;
+  }
+
+  }
+  @media (min-width : 990px) and (max-width : 1300px) {
+    table {
+      font-size: 14px;
+    }
+    #eew{
+  width: 30%;
+}
+  }
+  @media (min-width : 1181px)  {
+    
+  
+  }
+</style>
+{% endblock content %}

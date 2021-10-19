@@ -1,0 +1,317 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: webmaster@localhost\n"
+"POT-Creation-Date: 2021-10-19 20:13:16\n"
+"PO-Revision-Date: 2021-10-19 20:13:16\n"
+"Last-Translator: Server <root@localhost>\n"
+"Language-Team: English <webmaster@localhost>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\templates\base.html:377
+msgid ""
+" Vårt företag grundades år 2020. Det är specialiserat på distribution av mjölk och ost direkt från producent till\n"
+"                        konsument.Vi erbjuder försäljningsservice på mer än 30 platser i Sverige och vi arbetar nu för att nå nya områden. Vi\n"
+"                        utmärker oss inom mejeri- och ostindustrin genom sitt engagemang för de högsta kvalitetskraven och för att\n"
+"                        tillhandahålla de bästa hälsoprodukterna. Vårt företag anses vara ett av de viktigaste företagen inom distribution och\n"
+"                        tillverkning av mejeri och livsmedel. Företaget litar på i sin policy om att nå konsumentnöjdhet genom att alltid\n"
+"                        tillhandahålla det bästa och bästa"
+msgstr ""
+"تأسست شركتنا في عام 2020 وهي متخصصة في توزيع الحليب والجبن مباشرة من المنتج "
+"الى المستهلك نقدم خدمة البيع في اكثر من 30 موقعا في السويد ونعمل الان للوصول"
+" الى مناطق جديدة.  نتميز في صناعة الألبان والأجبان من خلال التزامهم بأعلى "
+"متطلبات الجودة وتقديم أفضل المنتجات الصحية. تعتبر شركتنا من أهم الشركات في "
+"توزيع وإنتاج الألبان والمواد الغذائية. تثق الشركة في سياستها في تحقيق رضا "
+"المستهلك من خلال تقديم الأفضل والأفضل دائمًا"
+
+#: .\templates\base.html:130
+msgid " We have the Syrian sandwich"
+msgstr "لدينا الشنكليش السوري بأجود أنواع وألذ طعم"
+
+#: .\templates\base.html:353
+msgid "09.00am to 08.00pm"
+msgstr "من 8:00 إلى 9:00"
+
+#: .\templates\base.html:376
+msgid "About NORRKÖPINGS OST"
+msgstr "عن NORRKÖPINGS OST"
+
+#: .\templates\base.html:162 .\templates\base.html:390
+msgid "About Us"
+msgstr "معلومات عنا"
+
+#: .\templates\all_product.html:134
+msgid "Address"
+msgstr "العنوان"
+
+#: .\templates\base.html:404
+msgid "Address:"
+msgstr "العنوان"
+
+#: .\templates\base.html:118
+msgid "All of our products are without preservatives"
+msgstr "جميع منتجاتنا خالية من المواد الحافظة"
+
+#: .\templates\all_product.html:63
+msgid "All products are made from natural materials without preservatives."
+msgstr "جميع المنتجات مصنوعة من مواد طبيعية بدون مواد حافظة."
+
+#: .\project\settings.py:119
+msgid "Arabic"
+msgstr "عربي"
+
+#: .\templates\base.html:349
+msgid "Business Time"
+msgstr "وقت العمل"
+
+#: .\templates\base.html:91
+msgid "Call Sweden :-"
+msgstr "أتصال السويد:-"
+
+#: .\templates\base.html:401
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+#: .\templates\all_product.html:136 .\templates\all_product.html:180
+msgid "Date"
+msgstr "تاريخ"
+
+#: .\templates\one_product.html:114
+msgid "Date:"
+msgstr "تاريخ"
+
+#: .\templates\base.html:395
+msgid "Delivery Information"
+msgstr "معلومات التوصيل"
+
+#: .\templates\base.html:411
+msgid "Email:"
+msgstr "بريد الالكتروني:"
+
+#: .\templates\all_product.html:138
+msgid "End hour"
+msgstr "ساعة االانتهاء"
+
+#: .\project\settings.py:118
+msgid "English"
+msgstr "إنجليزي"
+
+#: .\templates\base.html:97
+msgid "Facebook"
+msgstr "الفيسبوك"
+
+#: .\templates\base.html:361
+msgid "Follow us and find out whats new."
+msgstr "تابعنا واكتشف الجديد."
+
+#: .\templates\base.html:112
+msgid "Follow us to get all new"
+msgstr "تابعنا للحصول على كل جديد"
+
+#: .\templates\base.html:115
+msgid "From producer to consumer"
+msgstr "من منتج إلى مستهلك"
+
+#: .\templates\base.html:161
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+#: .\templates\base.html:388
+msgid "Information"
+msgstr "معلومات"
+
+#: .\templates\one_product.html:165
+msgid "Log in to leave your review"
+msgstr "سجل دخول لترك رأيك"
+
+#: .\templates\all_product.html:252
+msgid "Log in to leave your review!"
+msgstr "سجل دخول لترك رأيك"
+
+#: .\templates\base.html:71
+msgid "Logga ut"
+msgstr "تسجيل خروج"
+
+#: .\templates\about.html:81
+msgid "Meet Our Team"
+msgstr "التق بفريقنا"
+
+#: .\templates\base.html:351
+msgid "Monday - Friday: 08.00am to 08.00pm"
+msgstr "من الإثنين إلى الجمعة: من الساعة 8:00 صباحًا حتى الساعة 8:00 مساءً"
+
+#: .\templates\all_product.html:62
+msgid "Our products"
+msgstr "منتجاتنا"
+
+#: .\templates\base.html:121
+msgid "Our products are made from fresh Swedish milk"
+msgstr "منتجاتنا مصنوعة من الحليب السويدي الطازج"
+
+#: .\templates\base.html:408
+msgid "Phone:"
+msgstr "هاتف:"
+
+#: .\templates\all_product.html:124
+msgid "Point of sale direct with date and city name."
+msgstr "نقطة بيع مباشرة مع التاريخ واسم المدينة."
+
+#: .\templates\base.html:394
+msgid "Privacy Policy"
+msgstr "سياسة خاصة"
+
+#: .\templates\about.html:37
+msgid "Read More"
+msgstr "اقرأ أكثر"
+
+#: .\templates\base.html:78
+msgid "Register Here"
+msgstr "سجل هنا"
+
+#: .\templates\one_product.html:151
+msgid "Review"
+msgstr "التعليقات"
+
+#: .\templates\one_product.html:104
+msgid "Reviews"
+msgstr "التعليقات"
+
+#: .\templates\base.html:352
+msgid "Saturday: 09.00am to 08.00pm"
+msgstr "السبت: 09.00 صباحًا إلى 08.00 مساءً"
+
+#: .\templates\one_product.html:14
+msgid "Shop"
+msgstr "شراء"
+
+#: .\templates\one_product.html:12 .\templates\one_product.html:15
+msgid "Shop Detail"
+msgstr "تفاصيل المنتج"
+
+#: .\templates\all_product.html:19 .\templates\all_product.html:31
+msgid "Shop New"
+msgstr "أشتري الان"
+
+#: .\templates\one_product.html:68
+msgid "Short Description:"
+msgstr "وصف قصير:"
+
+#: .\templates\base.html:79
+msgid "Sign In"
+msgstr "تسجيل الدخول"
+
+#: .\templates\base.html:95
+msgid "Sign in"
+msgstr "تسجيل الدخول"
+
+#: .\templates\base.html:96
+msgid "Sign up"
+msgstr "أنشاء حساب"
+
+#: .\templates\base.html:360
+msgid "Social Media"
+msgstr "وسائل التواصل الاجتماعي"
+
+#: .\templates\all_product.html:247 .\templates\one_product.html:160
+msgid "Submit"
+msgstr "أرسال"
+
+#: .\templates\base.html:353
+msgid "Sunday:"
+msgstr "يوم الأحد:"
+
+#: .\project\settings.py:117
+msgid "Swedish"
+msgstr "السويدية"
+
+#: .\templates\all_product.html:167
+msgid "The place and time are not suitable. Help us choose"
+msgstr "المكان والزمان غير مناسبين. ساعدنا في الاختيار"
+
+#: .\templates\one_product.html:124
+msgid "There are no reviews yet"
+msgstr "لا توجد توصيات بعد"
+
+#: .\templates\all_product.html:191
+msgid "There are no reviews yet..."
+msgstr "لا توجد توصيات بعد"
+
+#: .\templates\all_product.html:88 .\templates\all_product.html:92
+msgid "View"
+msgstr "عرض المنتج"
+
+#: .\templates\about.html:17
+msgid "We are"
+msgstr "نحن"
+
+#: .\templates\base.html:133
+msgid "We distribute and sell products in more than 30 regions in Sweden"
+msgstr "نقوم بتوزيع وبيع المنتجات في أكثر من 30 منطقة في السويد"
+
+#: .\templates\base.html:127
+msgid "We have the best and most delicious types of cheese"
+msgstr "لدينا أفضل وألذ أنواع الجبن"
+
+#: .\templates\all_product.html:17 .\templates\all_product.html:29
+#: .\templates\all_product.html:41
+msgid "Welcome To"
+msgstr "مرحبا بك في"
+
+#: .\templates\all_product.html:238
+msgid "Write the proposal with the name of the city "
+msgstr "اكتب الاقتراح مع  اسم المدينة"
+
+#: .\templates\base.html:124
+msgid "You have an inquiry contact us"
+msgstr "لديك استفسار اتصل بنا"
+
+#: .\templates\all_product.html:133
+msgid "city name"
+msgstr "اسم المدينة"
+
+#: .\templates\all_product.html:118 .\templates\all_product.html:123
+msgid "sales areas"
+msgstr "مناطق المبيعات"
+
+#: .\templates\one_product.html:115 .\templates\one_product.html:135
+msgid "stars"
+msgstr "النجوم"
+
+#: .\templates\one_product.html:115
+msgid "stars:"
+msgstr "النجوم"
+
+#: .\templates\all_product.html:137
+msgid "start hour"
+msgstr "ساعة البداية"
+
+#: .\templates\one_product.html:91
+msgid "the description"
+msgstr "الوصف"
+
+#: .\templates\all_product.html:135
+msgid "the map"
+msgstr "الخريطة"
+
+#: .\templates\all_product.html:219
+msgid "أختار المدينة"
+msgstr "أختار المدينة"
+
+#: .\templates\all_product.html:182
+msgid "المدينة:"
+msgstr "المدينة:"
+
+#: .\templates\all_product.html:76
+msgid "تخفيضات"
+msgstr "تخفيضات"
+
+#: .\templates\all_product.html:82
+msgid "توصيه مسيقا"
+msgstr "توصيه مسيقا"
+
+#: .\templates\all_product.html:79
+msgid "متاح في مكان التوزيع "
+msgstr "متاح في مكان التوزيع"

@@ -1,0 +1,116 @@
+{% extends 'base.html'%}
+{% load i18n %}
+
+{% load static%}
+
+{% block content %}
+
+<!-- Start About Page  -->
+    <div class="about-box-main">
+        <div class="container">
+            <div class="row">
+				<div class="col-lg-6">
+                    <div class="banner-frame"> <img class="img-fluid" src="{% static 'images/bil.jpg'%}" alt=""/ style="height: 30rem;"   >
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="noo-sh-title-top">{% trans 'We are'%} <span>Norrköpings ost</span></h2>
+
+    {% if LANGUAGE_BIDI %}
+    
+    <p >تأسست شركتنا عام 2020 تتخصص في توزيع الألبان و الأجبان من المنتج الى المستهلك مباشرتا نحن نقدم خدمة البيع في اكثر من 30 موقع في السويد ونعمل الان الى الوصل الى مناطق جديدة. نمتاز في صناعة الألبان والأجبان بالتزامها
+       بأعلى معايير الجودة وبتقديم أفضل المنتجات الصحية,
+    وتعتبر شركتنا من أهم الشركات في مجال توزيع و تصنيع الألبان والمواد
+     الغذائية وتعتمد الشركة في سياستها على الوصول إلى رضا
+    المستهلك وذلك من خلال تقديم الأفضل والأجود دائماً. </p>
+
+    <p>نحن نهتم بارائكم وغايتنا رضا زبائننا وان نقدم لهم اجود واطيب المنتجات وباسعار مدروسة.</p>
+    {% else %}
+    <p >Vårt företag grundades år 2020. Det är specialiserat på distribution av mjölk och ost direkt från producent till
+    konsument.Vi erbjuder försäljningsservice på mer än 30 platser i Sverige och vi arbetar nu för att nå nya områden. Vi
+    utmärker oss inom mejeri- och ostindustrin genom sitt engagemang för de högsta kvalitetskraven och för att
+    tillhandahålla de bästa hälsoprodukterna. Vårt företag anses vara ett av de viktigaste företagen inom distribution och
+    tillverkning av mejeri och livsmedel. Företaget litar på i sin policy om att nå konsumentnöjdhet genom att alltid
+    tillhandahålla det bästa och bästa. </p>
+      {% endif %}
+                    <p>We care about your opinions and our goal is to satisfy our customers and to offer them the finest and best products at reasonable prices.</p>
+					<a class="btn hvr-hover" href="#">{% trans 'Read More'%}</a>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="service-block-inner">
+                      {% if LANGUAGE_BIDI %}
+                        <h3>نحن على ثقة</h3>
+                        <p>جميع منتجاتنا ذات نوعية جيدة وبدون مواد حافظة. </p>
+                       {% else %}
+                       <h3>We are Trusted</h3>
+                        <p>All of our products are of good quality and without preservatives. </p>
+
+                       {% endif %}
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="service-block-inner">
+                    {% if LANGUAGE_BIDI %}
+                        <h3>نحن محترفون</h3>
+                        <p>نحن نهتم بعملائنا وليس لدينا تواصل جيد. </p>
+                     {% else %}
+                        <h3>We are Professional</h3>
+                        <p>We care about our customers and do not have good communication. </p>
+                       {% endif %}
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="service-block-inner">
+                     {% if LANGUAGE_BIDI %}
+                        <h3>نحن خبراء</h3>
+                        <p>لدينا خبرة واسعة في صناعة الجبن واللبنة والزبادي وجميع مشتقاتها. </p>
+                     {% else %}
+                        <h3>We are Expert</h3>
+                        <p>We have extensive experience in the manufacture of cheese, labneh, yogurt and all derivatives. </p>
+                       {% endif %}
+                        
+                    </div>
+                </div>
+            </div>
+            {% comment %} <div class="row my-4">
+                <div class="col-12">
+                    <h2 class="noo-sh-title">{% trans 'Meet Our Team'%}</h2>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="hover-team">
+                        <div class="our-team"> <img src="images/img-1.jpg" alt="" />
+                            <div class="team-content">
+                                <h3 class="title">Williamson</h3> <span class="post">Web Developer</span> </div>
+                            <ul class="social">
+                                <li>
+                                    <a href="#" class="fab fa-facebook"></a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#" class="fab fa-google-plus"></a>
+                                </li>
+                                
+                            </ul>
+                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
+                        </div>
+                        <div class="team-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                        </div>
+                        <hr class="my-0"> </div>
+                </div>
+                
+                        <div class="team-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                        </div>
+                        <hr class="my-0"> </div>
+                </div>
+            </div> {% endcomment %}
+        </div>
+    </div>
+    <!-- End About Page -->
+
+    {% endblock content %}
